@@ -50,7 +50,7 @@ function loadSpreadsheet(){
 		key: spreadsheet_id
 	}, function(err, spreadsheet) {
 		spreadsheet.worksheets[0].cells({
-			range: "A462:I462"
+			range: "A2:I737"
 		}, function(err, cells) {
 			spreadsheet_data = cells['cells'];
 			launcher();
