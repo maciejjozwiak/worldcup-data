@@ -1,0 +1,13 @@
+{
+  "name": "worldcup-data",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+	"google-spreadsheets" : "*",
+	"mongodb" : "*",
+	"monk" : "*",
+	"googleapis" : "*",
+	"freebase" : "*",
+	"async" : "*"
+  }
+}
